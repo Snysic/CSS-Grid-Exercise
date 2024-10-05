@@ -1,8 +1,7 @@
-.container {
-    display: grid;
-  }
-
- .image1{
+.image1{
+    display: flex;
+    justify-content: ;
+    align-items: ;
     width: 420px; 
     height: 200px;
     top: 40px;
@@ -10,6 +9,7 @@
     border: 1px;
 }
 .image2{
+    display: flex;
     width: 150px;
     height: 200px;
     top: 288px;
@@ -17,6 +17,7 @@
     border: 1px;
 }
 .image3{
+    display: flex;
     width: 150px;
     height: 200px;
     top: 288px;
@@ -24,6 +25,7 @@
     border: 1px;
 }
 .image4{
+    display: flex;
     width: 335px;
     height: 448px;
     top: 288px;
@@ -31,6 +33,7 @@
     border: 1px;
 }
 .image5{
+    display: flex;
     width: 150px;
     height: 200px;
     top: 288px;
@@ -38,6 +41,7 @@
     border: 1px;    
 }
 .image6{
+    display: flex;
     width: 335px;
     height: 200px;
     top: 536px;
@@ -45,6 +49,7 @@
     border: 1px; 
 }
 .image7{
+    display: flex;
     width: 150px;
     height: 200px;
     top: 536px;
@@ -52,9 +57,15 @@
     border: 1px; 
 }
 .image8{
+    display: flex;
     width: 150px;
     height: 200px;
     top: 784px;
     left:67px;
     border: 1px; 
 }
+
+
+    
+
+
