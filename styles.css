@@ -1,90 +1,109 @@
-.parent{
+body, html {
+    margin: 10px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+.parent {
     display: grid; 
-    grid-template-columns: 4  ;
-    grid-template-rows: 4  ;
-    justify-content:;
-    align-items: ;
-
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+}
+.image0{
+    width: 420px; 
+    height: 200px;
+    top: 40px;
+    left: 67px;
+    border: solid;
+    padding: 1px 1px 1px 1px;
 }
 .image1{
     width: 420px; 
     height: 200px;
     top: 40px;
     left: 537px;
-    border: 1px;
-    padding: 67px 67px 67px 67px;
+    border: solid;
+    padding: 1px 1px 1px 1px;
 }
 .image2{
     width: 150px;
     height: 200px;
     top: 288px;
     left: 67px;
-    border: 1px;
-    padding: 67px 67px 67px 67px;
+    border: solid;
+    padding: 1px 1px 1px 1px;
 }
 .image3{
     width: 150px;
     height: 200px;
     top: 288px;
     left:252px;
-    border: 1px;
-    padding: 67px 67px 67px 67px;
+    border: solid;
+    padding: 1px 1px 1px 1px;
 }
 .image4{
     width: 335px;
     height: 448px;
     top: 288px;
     left:437px;
-    border: 1px;
-    padding: 67px 67px 67px 67px;
+    border: solid;
+    padding: 1px 1px 1px 1px;
 }
 .image5{
     width: 150px;
     height: 200px;
     top: 288px;
     left:807px;
-    border: 1px; 
-    padding: 67px 67px 67px 67px;   
+    border: solid; 
+    padding: 1px 1px 1px 1px;
 }
 .image6{
     width: 335px;
     height: 200px;
     top: 536px;
     left:67px;
-    border: 1px; 
-    padding: 67px 67px 67px 67px;
+    border: solid; 
+    padding: 1px 1px 1px 1px;
 }
 .image7{
     width: 150px;
     height: 200px;
     top: 536px;
     left:807px;
-    border: 1px; 
-    padding: 67px 67px 67px 67px;
+    border: solid; 
+    padding: 1px 1px 1px 1px;
 }
 .image8{
     width: 150px;
     height: 200px;
     top: 784px;
     left:67px;
-    border: 1px; 
-    padding: 67px 67px 67px 67px;
+    border: solid; 
+    padding: 1px 1px 1px 1px;
 }
 .image9{
     width: 150px;
     height: 200px;
     top: 784px;
-    left: 252px;px;
-    border: 1px; 
-    padding: 67px 67px 67px 67px;
+    left: 252px;
+    border: solid; 
+    padding: 1px 1px 1px 1px;
 }
 .image10{
     width: 520px;
     height: 200px;
     top: 784px;
-    left: 437px;px;
-    border: 1px; 
-    padding: 67px 67px 67px 67px;
+    left: 437px;
+    border: solid; 
+    padding: 1px 1px 1px 1px;
+}
+.div0{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 .div1{
     grid-column-start: 3;
@@ -147,11 +166,3 @@
     grid-row-start: 4;
     grid-row-end: 5;
 }
-
-
-
-
-
-    
-
-
